@@ -5,7 +5,11 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/', function (req, res) {
+app.get('/test-db', function (req, res) {
+    //make a select request
+    //
+    // reponse a return with the result 
+    //
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
