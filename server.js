@@ -1,31 +1,36 @@
-var express = require('express');
-var morgan = require('morgan');
-var path = require('path');
+  Go to Test Site ;
+Create folder Name ; Scripts
+New File name :  main.js //save this 
 
-var app = express();
-app.use(morgan('combined'));
-
-app.get('/test-db', function (req, res) {
-    //make a select request
-    //
-    // reponse a return with the result 
-    //
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
-
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-});
-
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-});
+                index.html
 
 
-// Do not change port, otherwise your app won't run on IMAD servers
-// Use 8080 only for local development if you already have apache running on 80
 
-var port = 80;
-app.listen(port, function () {
-  console.log(`IMAD course app listening on port ${port}!`);
-});
+ 1 var myheading = document>querySelector ('h1');
+  2 myHeading .textcontent = 'hellow worid Reload';
+
+<script src ="scripts/main.js></script>
+<body> tag:
+ 
+ NOW Load Index File in the browser  
+                       
+ //you get //Hellow World Reload
+
+var myvariable = 'bob';
+
+            Varaible                  Explanation                 Example
+              
+             string                    textvr                my variable = 'Bob'/ note' quote '
+              Nunber  var                                     myvariable = 10
+
+             Boolean              True /False            var = myvariable = true;
+
+                 
+               Array                 
+                             A structure to store mulptiple values           myvariablr[0],myvarible [1] ,etc
+              ObCject   any thinmg in JS is an object and can be stored in a varible    var.myvariable =document .qurryselector ('h1);
+
+
+  Comments 
+1    /*  every thing in betwee is a commenmt . */
+2 For Comment with mout break //
