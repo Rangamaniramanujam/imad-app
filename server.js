@@ -1,6 +1,7 @@
+
 <!Doctype html>
 <html>
-
+<head>
     <title>Welcome
     </title>
     </head>
@@ -11,7 +12,7 @@
 
 
 <p>My fist paragraph <p1>
-     </body>
+</body>
 </html>
 
 
