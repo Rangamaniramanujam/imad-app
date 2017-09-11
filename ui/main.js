@@ -14,3 +14,10 @@ img.stylemarginleft = marginleft+"px";
 img.onclick = function (){
     var interval = setinterval  (moveright,100);
 };
+button.onclick = function () {
+counter = counter + 1;
+var span =document.getElementbyID(count);
+span.innerhtml = counter.string();
+
+    
+};
